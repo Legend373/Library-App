@@ -1,0 +1,11 @@
+body {
+  margin: 0;
+  height: 100vh;
+  background-color: rgba(4, 9, 30, 0.7);
+}
+.Hero {
+  background-image: linear-gradient(rgba(4, 9, 30, 0.7), rgba(4, 9, 30, 0.7)),
+    url("../assets/img.jpg");
+  background-size: cover;
+  height: 150px;
+}
