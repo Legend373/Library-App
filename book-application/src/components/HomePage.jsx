@@ -5,9 +5,11 @@ import BookList from './BookList'
 const HomePage = () => {
     return (
         <div class="Hero">
-            <div class="z-1  text-center pt-5 text-white  ">
-                <h1 class="text-5xl" >WELLCOME TO ABREHOTE LIBRARY</h1>
-                <h2 class="w-150 text-xl mt-5 ml-70">Where Exploration Knows No Bounds!!</h2>
+            <div className="z-10 text-center py-8 md:py-12 lg:py-16 px-4  text-white">
+                <h1 className="text-3xl sm:text-4xl md:text-5xl font-bold">WELCOME TO ABREHOTE LIBRARY</h1>
+                <h2 className="mt-4 sm:mt-5 text-lg sm:text-xl md:text-2xl font-medium">
+                    Where Exploration Knows No Bounds!!
+                </h2>
             </div>
             <div class=" mt-10 text-center">
                 <BookList />
